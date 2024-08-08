@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.title{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.addTask{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.inputTask{
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Add{
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: blue;
+    border: none;
+}
+
+.addedTask{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.addedTask button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    transition-duration: 0.5s;
+    height: 50px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.delContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.delete{
+    width: 120px;
+    position: absolute;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+}
+
+.delete:hover{
+    background-color: red;
+}
